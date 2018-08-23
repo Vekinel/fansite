@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Pacifico');
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a,
+code, img, small, b, u, i, center, ol, ul, li,
+fieldset, form, label, table, footer,
+header, hgroup, menu, nav, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+
+body {
+    font-family: 'Lobster', cursive;
+    background: url(https://subtlepatterns.com/patterns/footer_lodyas.png);
+    width: auto;
+    height: auto;
+    max-width: 1280px;
+    color: #404040;
+}
+
+footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0;
+    bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+}
+
+.sm {
+    width: 15px;
+    height: 15px;
+}
+
+article, aside, details, figcaption, figure,
+hgroup, menu, nav, section {
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.hist2 {
+    margin: 0 10px 10px 0;
+    font-family: 'Pacifico', cursive;
+    color: #808080;
+}
+
+

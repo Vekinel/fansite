@@ -1,0 +1,15 @@
+@import "import.css";
+
+body {
+    font-family: 'Pacifico', cursive;
+    background-image: url("../image/kino_2.jpg");
+}
+
+p, h3 {
+    color: lightblue;
+    font-size: x-large;
+}
+
+h1 {
+    color: darkcyan;
+}

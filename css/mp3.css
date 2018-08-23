@@ -1,0 +1,11 @@
+@import "import.css";
+
+.mp3 {
+    font-family: 'Pacifico', cursive;
+    font-size: 25pt;
+    color: #808080;
+}
+
+.list{
+    list-style-type: none;
+}
