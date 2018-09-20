@@ -1,12 +1,5 @@
-@import "import.css";
+@import "../css/import.css";
 
-body {
-    font-family: 'Lobster', cursive;
-    background-image: url("../image/kino_logo.jpg");
-    width: auto;
-    height: auto;
-    max-width: 1280px;
-}
 
 .hist {
     line-height: 1.3;

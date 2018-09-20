@@ -10,14 +10,10 @@ header, hgroup, menu, nav, audio, video {
     vertical-align: baseline;
 }
 
-
 body {
-    font-family: 'Lobster', cursive;
     background: url(https://subtlepatterns.com/patterns/footer_lodyas.png);
-    width: auto;
-    height: auto;
-    max-width: 1280px;
-    color: #404040;
+margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 footer {
@@ -42,12 +38,6 @@ hgroup, menu, nav, section {
 table {
     border-collapse: collapse;
     border-spacing: 0;
-}
-
-.hist2 {
-    margin: 0 10px 10px 0;
-    font-family: 'Pacifico', cursive;
-    color: #808080;
 }
 
 

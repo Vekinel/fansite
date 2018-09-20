@@ -134,3 +134,8 @@ nav li:hover > .submenu {
         text-align: center;
     }
 }
+@media (max-width:640px){
+    header h1 {
+        height: 140px;
+    }
+}
