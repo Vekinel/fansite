@@ -6,9 +6,20 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0"/>
     <link rel="stylesheet" href="css/slider.css">
     <link href="css/main.css" type="text/css" rel="stylesheet">
-</head>
+    <!--Script for player-->
+    <script src="./audio/audiojs/audio.min.js"></script>
+    <script src="audio/audiojs/initialise%20audio.js"></script>
+    </head>
 <body>
+<!--Audio intialise-->
+<audio preload="auto">
+    <source src="./audio/mp3/stream1.mp3">
+    <source src="./audio/mp3/stream2.mp3">
+    <source src="./audio/mp3/stream3.mp3">
+</audio>
+
 <div id="wrapper">
+    <!--Navigation-->
     <nav class=topnav id="myTopnav">
         <ul class="topmenu">
             <li><a href="index.html" class="active">Главная<span class="dropdown_mnu"></span></a>
@@ -65,7 +76,7 @@
     </aside>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
-      </a>
+    </a>
 </div>
 </body>
 </html>
